@@ -1,6 +1,6 @@
 ## FastAPI, PostgreSQL, Docker를 활용한 백엔드 개발 튜토리얼 (초보자용)
 
-이 튜토리얼은 백엔드 개발 경험이 없는 분들을 대상으로, FastAPI, PostgreSQL, 그리고 Docker를 사용하여 간단한 CRUD (Create, Read, Update, Delete) API를 구축하는 과정을 단계별로 안내합니다. Velog 가이드에서 제시된 내용을 바탕으로 실습 과정을 자세히 설명합니다.
+이 튜토리얼은 백엔드 개발 경험이 없는 분들을 대상으로, FastAPI, PostgreSQL, 그리고 Docker를 사용하여 간단한 CRUD (Create, Read, Update, Delete) API를 구축하는 과정을 단계별로 안내합니다.제시된 내용을 바탕으로 실습 과정을 자세히 설명합니다.
 이 튜토리얼은 Docker를 중심으로 가상환경을 설정합니다. 따라서 uv를 활용한 가상환경 설정은 제외됩니다.
 
 **목표:**
@@ -23,7 +23,7 @@
 
 ```
 fastapi-postgresql-tutorial/      # 프로젝트 루트 디렉토리
-├── app/                          # 애플리케이션 코드 디렉토리 (Velog 가이드와 일치)
+├── app/                          # 애플리케이션 코드 디렉토리
 │   ├── __init__.py
 │   ├── api.py                    # API 엔드포인트 정의
 │   ├── database.py               # 데이터베이스 연결 및 모델 정의
@@ -89,7 +89,7 @@ fastapi-postgresql-tutorial/      # 프로젝트 루트 디렉토리
           db_data:
         ```
 
-    *   **requirements.txt:** FastAPI 및 관련 의존성 명시 (uv pip 관련 설정은 velog 글에 없으므로 생략)
+    *   **requirements.txt:** FastAPI 및 관련 의존성 명시
 
         ```
         fastapi==0.95.0
